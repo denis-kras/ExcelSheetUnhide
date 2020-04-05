@@ -1,5 +1,7 @@
 # ExcelSheetUnhide
 
+Latest version is 1.0.0
+
 This Powershell script is used to Reveal / Unhide hidden Excel Spread Sheets and Workbooks.
 This is especially relevant for Malicious Execel files that are using Excel 4 Macros, since they tend to hide the Workbook with the Macro itself.
 
