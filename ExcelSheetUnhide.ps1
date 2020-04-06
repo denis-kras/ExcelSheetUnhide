@@ -15,7 +15,7 @@ param(
 #==================================
 
 # Basic Variables
-$Version = "v1.0.0"
+$Version = "v1.0.1"
 $Name = "ExcelSheetUnhide"
 $Author = "DenK"
 $SaveFile = $false
@@ -185,6 +185,7 @@ Function BreakLine {
 
 Write-Host $Name $Version
 Write-Host "Author: $Author"
+Write-Host "Note that Excel editor is opened in the background with Macros disabled. Better use the script in VM."
 Write-Host "-h: Show help, Syntax and Examples. Other switches will be omitted."
 Write-Host "The Script is licensed under GNU General Public License v3.0"
 Write-Host "Visit Script's site page with manual and explanations: https://www.optimizationcore.com/excelsheetunhide"
